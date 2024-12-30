@@ -1,0 +1,86 @@
+{
+    "Version": 2,
+    "PainelConecta5G": false,
+    "ReleaseNotes": false,
+    "UrlUpdate": https://github.com/felipebrandao099/Conecta5g/blob/main/config",
+    "Sms": "https://painelconecta5g.com/update/pasta_vpnbrasil9/sms",
+    "logoonline": "",
+    "fundoonline": "https://i.ibb.co/dWjy3GG/IMG-20241116-WA0050.jpg",
+    "fundoDoLogOnline": "",
+    "EmailFeedback": "",
+    "UrlContato": "",
+    "UrlTermos": "https://t.me/sacastico_vpnbot",
+    "CheckUser": "true",
+    "ModderLinkWhatsapp": "https://wa.me/message/4HSEMU3QRYEGH1",
+    "ModderLinkTelegram": "https://t.me/NOVACONECTVPN",
+    "ModderCorCaixaServ": "#00CC99",
+    "ModderCorCaixaPay": "rgba(136,136,136,0.9)",
+    "ModderCorCaixaCentral": "#888888",
+    "ModderCorCaixaConexao": "#009999",
+    "ModderCorCaixaUsuario": "#0066CC",
+    "ModderCorCaixaSenha": "#AAAAAA",
+    "ModderCorBotaoIniciar": "#3399CC",
+    "ModderCorBotaoLog": "rgba(221,221,221,0.8)",
+    "ModderCorBotaoConfig": "#0099FF",
+    "Udp": [
+        {
+            "Porta": "7300"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "SERVIDOR-BRASILEIRO 🚀",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "vpn.dragoncoressh.com",
+            "CheckUser": "",
+            "ServerPort": "80",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "🔵 TIM PRINCIPAL 🇧🇷",
+            "FLAG": "tim",
+            "Payload": "GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]@@@GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]@@@GET /cdn-cgi/trace HTTP/1.1[lf]Host: timofertas.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.18.5.18#104.21.2.132#104.18.4.18",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🔵 TIM PRINCIPAL EXTRA 🇧🇷",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "172.66.0.157#162.159.140.159",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM EXTRA #1",
+            "FLAG": "tim",
+            "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: portal.timrecompensas.com.br[lf][crlf][split][lf]ACL / HTTP/1.1[crlf]Host: novac.mixnet.shop[lf]Upgrade: Websocket[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.18.5.18#104.18.4.18#119.8.146.236",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM EXTRA #2",
+            "FLAG": "tim",
+            "Payload": "UPDATE // [split]HTTP/1.1 [lf]Host: app.vivo.com.br[lf][lf][split][lf]BCOPY / HTTP/1.1[lf]Host: amigonet.[app_host][lf]upgrade: Websocket[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "172.66.0.157#162.159.140.159",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+
+        }
+    ]
+}
